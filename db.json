@@ -8,24 +8,6 @@
             "bankCode": "ABS"
         },
         {
-            "id": "3192",
-            "cbnCode": "562",
-            "bankName": "ABSU MFB",
-            "bankCode": "ABSU"
-        },
-        {
-            "id": "2835",
-            "cbnCode": "059",
-            "bankName": "ABUCOOP MFB",
-            "bankCode": "ABO"
-        },
-        {
-            "id": "72",
-            "cbnCode": "063",
-            "bankName": "Access Bank Diamond",
-            "bankCode": "DBP"
-        },
-        {
             "id": "1738",
             "cbnCode": "G07",
             "bankName": "Access Bank Gambia",
@@ -36,18 +18,6 @@
             "cbnCode": "432",
             "bankName": "OGIYAN MFB",
             "bankCode": "OGY"
-        },
-        {
-            "id": "1931",
-            "cbnCode": "312",
-            "bankName": "Omoluabi Mortgage Bank",
-            "bankCode": "OMBPLC"
-        },
-        {
-            "id": "117",
-            "cbnCode": "057",
-            "bankName": "Zenith Bank International",
-            "bankCode": "ZIB"
         }
     ]
 }
