@@ -1,14 +1,575 @@
 {
-  "posts": [
-    { "id": 0, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "statusCode": 200,
+    "banks": [
+        {
+            "id": "151",
+            "cbnCode": "130",
+            "bankName": "Abbey Mortgage Bank Plc.",
+            "bankCode": "ABS"
+        },
+        {
+            "id": "3192",
+            "cbnCode": "562",
+            "bankName": "ABSU MFB",
+            "bankCode": "ABSU"
+        },
+        {
+            "id": "2835",
+            "cbnCode": "059",
+            "bankName": "ABUCOOP MFB",
+            "bankCode": "ABO"
+        },
+        {
+            "id": "72",
+            "cbnCode": "063",
+            "bankName": "Access Bank Diamond",
+            "bankCode": "DBP"
+        },
+        {
+            "id": "1738",
+            "cbnCode": "G07",
+            "bankName": "Access Bank Gambia",
+            "bankCode": "Access Gam"
+        },
+        {
+            "id": "31",
+            "cbnCode": "044",
+            "bankName": "Access Bank Nigeria Plc",
+            "bankCode": "ABP"
+        },
+        {
+            "id": "262",
+            "cbnCode": "097",
+            "bankName": "ACCION Microfinance bank",
+            "bankCode": "AMF"
+        },
+        {
+            "id": "1711",
+            "cbnCode": "200",
+            "bankName": "AG Mortgage Bank Plc",
+            "bankCode": "AGM"
+        },
+        {
+            "id": "1746",
+            "cbnCode": "G03",
+            "bankName": "AGIB Gambia",
+            "bankCode": "AGIB Gambi"
+        },
+        {
+            "id": "2239",
+            "cbnCode": "317",
+            "bankName": "Alvana Microfinance Bank",
+            "bankCode": "ALV"
+        },
+        {
+            "id": "1834",
+            "cbnCode": "306",
+            "bankName": "AMJU Unique Microfinance Bank",
+            "bankCode": "AMJU"
+        },
+        {
+            "id": "154",
+            "cbnCode": "121",
+            "bankName": "Aso Savings",
+            "bankCode": "ASO"
+        },
+        {
+            "id": "1750",
+            "cbnCode": "G09",
+            "bankName": "BSIC Bank Gambia",
+            "bankCode": "BSIC Bank "
+        },
+        {
+            "id": "2543",
+            "cbnCode": "559",
+            "bankName": "CORONATION MERCHANT BANK",
+            "bankCode": "CMEB"
+        },
+        {
+            "id": "1786",
+            "cbnCode": "323",
+            "bankName": "Covenant MFB",
+            "bankCode": "CVMFB"
+        },
+        {
+            "id": "2651",
+            "cbnCode": "332",
+            "bankName": "EBSU MFB",
+            "bankCode": "ESU"
+        },
+        {
+            "id": "47",
+            "cbnCode": "050",
+            "bankName": "Ecobank Nigeria",
+            "bankCode": "ECO"
+        },
+        {
+            "id": "273",
+            "cbnCode": "098",
+            "bankName": "Ekondo MFB",
+            "bankCode": "Ekondo"
+        },
+        {
+            "id": "523",
+            "cbnCode": "EMR",
+            "bankName": "Emrinet Mobile Limited",
+            "bankCode": "EMR"
+        },
+        {
+            "id": "2824",
+            "cbnCode": "FBG",
+            "bankName": "FBN Bank Gambia",
+            "bankCode": "FBNG"
+        },
+        {
+            "id": "140",
+            "cbnCode": "FBN-M",
+            "bankName": "FBN Microfinance Bank",
+            "bankCode": "FBN-M"
+        },
+        {
+            "id": "3316",
+            "cbnCode": "431",
+            "bankName": "FBN QUEST",
+            "bankCode": "FBQ"
+        },
+        {
+            "id": "1743",
+            "cbnCode": "G04",
+            "bankName": "FIBank Gambia",
+            "bankCode": "FIBank Gam"
+        },
+        {
+            "id": "51",
+            "cbnCode": "070",
+            "bankName": "Fidelity Bank Plc",
+            "bankCode": "FBP"
+        },
+        {
+            "id": "3034",
+            "cbnCode": "342",
+            "bankName": "FINCA MFB",
+            "bankCode": "FINC"
+        },
+        {
+            "id": "8",
+            "cbnCode": "011",
+            "bankName": "First Bank of Nigeria Plc",
+            "bankCode": "FBN"
+        },
+        {
+            "id": "76",
+            "cbnCode": "214",
+            "bankName": "First City Monument Bank",
+            "bankCode": "FCMB"
+        },
+        {
+            "id": "446",
+            "cbnCode": "FGM",
+            "bankName": "First Generation Mortgage Bank Limited",
+            "bankCode": "FGM"
+        },
+        {
+            "id": "1930",
+            "cbnCode": "313",
+            "bankName": "Fortis MFB",
+            "bankCode": "FOR"
+        },
+        {
+            "id": "2879",
+            "cbnCode": "060",
+            "bankName": "GreenBank MFB",
+            "bankCode": "GRNMFB"
+        },
+        {
+            "id": "3273",
+            "cbnCode": "430",
+            "bankName": "Grooming MFB",
+            "bankCode": "GRM"
+        },
+        {
+            "id": "1739",
+            "cbnCode": "G05",
+            "bankName": "GTBank Gambia",
+            "bankCode": "GTBG"
+        },
+        {
+            "id": "3058",
+            "cbnCode": "GGV",
+            "bankName": "GTBank Gambia Verve",
+            "bankCode": "GGV"
+        },
+        {
+            "id": "10",
+            "cbnCode": "058",
+            "bankName": "Guaranty Trust Bank Plc",
+            "bankCode": "GTB"
+        },
+        {
+            "id": "3105",
+            "cbnCode": "417",
+            "bankName": "Haggai MFB",
+            "bankCode": "HAI"
+        },
+        {
+            "id": "136",
+            "cbnCode": "096",
+            "bankName": "Hasal Microfinance",
+            "bankCode": "HSL"
+        },
+        {
+            "id": "307",
+            "cbnCode": "030",
+            "bankName": "Heritage Bank",
+            "bankCode": "HBP"
+        },
+        {
+            "id": "3207",
+            "cbnCode": "426",
+            "bankName": "Highstreet MFB",
+            "bankCode": "HST"
+        },
+        {
+            "id": "3040",
+            "cbnCode": "413",
+            "bankName": "IBETO MFB",
+            "bankCode": "IBETO"
+        },
+        {
+            "id": "3063",
+            "cbnCode": "414",
+            "bankName": "Imperial Homes Mortgage Bank",
+            "bankCode": "IHM"
+        },
+        {
+            "id": "515",
+            "cbnCode": "405",
+            "bankName": "INFINITY HOMES",
+            "bankCode": "ITMB"
+        },
+        {
+            "id": "2574",
+            "cbnCode": "ISWKE",
+            "bankName": "Interswitch Kenya",
+            "bankCode": "ISWKE"
+        },
+        {
+            "id": "261",
+            "cbnCode": "301",
+            "bankName": "Jaiz  Bank PLC",
+            "bankCode": "JAIZ"
+        },
+        {
+            "id": "521",
+            "cbnCode": "304",
+            "bankName": "Jessefield MFB",
+            "bankCode": "JMFB"
+        },
+        {
+            "id": "123",
+            "cbnCode": "082",
+            "bankName": "Keystone Bank Ltd",
+            "bankCode": "KSB"
+        },
+        {
+            "id": "3203",
+            "cbnCode": "411",
+            "bankName": "La Fayette MFB",
+            "bankCode": "LFT"
+        },
+        {
+            "id": "3065",
+            "cbnCode": "415",
+            "bankName": "Lagos Building Investment Company Mortgage Bank",
+            "bankCode": "LBIC"
+        },
+        {
+            "id": "2569",
+            "cbnCode": "331",
+            "bankName": "LAPO MFB",
+            "bankCode": "LAPM"
+        },
+        {
+            "id": "1691",
+            "cbnCode": "LVD",
+            "bankName": "Lavendar MFB",
+            "bankCode": "LVD"
+        },
+        {
+            "id": "3246",
+            "cbnCode": "427",
+            "bankName": "Letshego MFB",
+            "bankCode": "LET"
+        },
+        {
+            "id": "1989",
+            "cbnCode": "319",
+            "bankName": "Mayfresh Mortgage Bank",
+            "bankCode": "0MY"
+        },
+        {
+            "id": "2822",
+            "cbnCode": "MGG",
+            "bankName": "MEGA Bank Gambia",
+            "bankCode": "MEGA"
+        },
+        {
+            "id": "2712",
+            "cbnCode": "333",
+            "bankName": "Midland MFB",
+            "bankCode": "MID"
+        },
+        {
+            "id": "2384",
+            "cbnCode": "326",
+            "bankName": "Monarch MFB",
+            "bankCode": "MON"
+        },
+        {
+            "id": "3251",
+            "cbnCode": "428",
+            "bankName": "Mutual Alliance Savings and Loans",
+            "bankCode": "MUT"
+        },
+        {
+            "id": "3221",
+            "cbnCode": "423",
+            "bankName": "Nigerian Navy MFB",
+            "bankCode": "NVY"
+        },
+        {
+            "id": "2945",
+            "cbnCode": "410",
+            "bankName": "Nwannegadi MFB",
+            "bankCode": "NWA"
+        },
+        {
+            "id": "542",
+            "cbnCode": "324",
+            "bankName": "O3Capital MFB",
+            "bankCode": "O3C"
+        },
+        {
+            "id": "3317",
+            "cbnCode": "432",
+            "bankName": "OGIYAN MFB",
+            "bankCode": "OGY"
+        },
+        {
+            "id": "1931",
+            "cbnCode": "312",
+            "bankName": "Omoluabi Mortgage Bank",
+            "bankCode": "OMBPLC"
+        },
+        {
+            "id": "1916",
+            "cbnCode": "311",
+            "bankName": "Oscotech MFB",
+            "bankCode": "OSCM"
+        },
+        {
+            "id": "2558",
+            "cbnCode": "560",
+            "bankName": "PAGE MFB",
+            "bankCode": "PAGE"
+        },
+        {
+            "id": "1980",
+            "cbnCode": "318",
+            "bankName": "Parallex Microfinance Bank",
+            "bankCode": "PMF"
+        },
+        {
+            "id": "3057",
+            "cbnCode": "314",
+            "bankName": "Parkway MFB",
+            "bankCode": "PWY"
+        },
+        {
+            "id": "120",
+            "cbnCode": "076",
+            "bankName": "Polaris Bank",
+            "bankCode": "SKYE"
+        },
+        {
+            "id": "2254",
+            "cbnCode": "320",
+            "bankName": "Polyunwana MFB",
+            "bankCode": "PON"
+        },
+        {
+            "id": "275",
+            "cbnCode": "PSH",
+            "bankName": "Post Services Home",
+            "bankCode": "PSH"
+        },
+        {
+            "id": "288",
+            "cbnCode": "101",
+            "bankName": "Providus Bank",
+            "bankCode": "UMB"
+        },
+        {
+            "id": "3302",
+            "cbnCode": "992",
+            "bankName": "Quickteller QR VISA",
+            "bankCode": "QTL"
+        },
+        {
+            "id": "3337",
+            "cbnCode": "993",
+            "bankName": "Quickteller SVA Kenya",
+            "bankCode": "QSK"
+        },
+        {
+            "id": "280",
+            "cbnCode": "RSL",
+            "bankName": "Resort Savings   Loan PLC",
+            "bankCode": "RSL"
+        },
+        {
+            "id": "2730",
+            "cbnCode": "336",
+            "bankName": "RIMA Growth PathWay MFB",
+            "bankCode": "RIM"
+        },
+        {
+            "id": "3222",
+            "cbnCode": "425",
+            "bankName": "ROLEZ MFB",
+            "bankCode": "ROL"
+        },
+        {
+            "id": "2777",
+            "cbnCode": "338",
+            "bankName": "SAFELINE MFB",
+            "bankCode": "SLMFB"
+        },
+        {
+            "id": "518",
+            "cbnCode": "093",
+            "bankName": "Seedvest MFB",
+            "bankCode": "SMFB"
+        },
+        {
+            "id": "1749",
+            "cbnCode": "G13",
+            "bankName": "Skye Bank Gambia",
+            "bankCode": "Skye Gambi"
+        },
+        {
+            "id": "17",
+            "cbnCode": "039",
+            "bankName": "Stanbic IBTC Plc",
+            "bankCode": "STANBIC"
+        },
+        {
+            "id": "121",
+            "cbnCode": "232",
+            "bankName": "Sterling Bank Plc",
+            "bankCode": "SBP"
+        },
+        {
+            "id": "1961",
+            "cbnCode": "100",
+            "bankName": "Suntrust Bank",
+            "bankCode": "SUN"
+        },
+        {
+            "id": "2727",
+            "cbnCode": "335",
+            "bankName": "TCF MFB",
+            "bankCode": "TCF"
+        },
+        {
+            "id": "1740",
+            "cbnCode": "G02",
+            "bankName": "Trust Bank Limited  Gambia",
+            "bankCode": "Trust Bank"
+        },
+        {
+            "id": "1710",
+            "cbnCode": "322",
+            "bankName": "TrustBond MFB",
+            "bankCode": "TBD"
+        },
+        {
+            "id": "330",
+            "cbnCode": "094",
+            "bankName": "UandC Microfinance Bank",
+            "bankCode": "UCMFB"
+        },
+        {
+            "id": "2888",
+            "cbnCode": "062",
+            "bankName": "UDA Microfinance Bank",
+            "bankCode": "UDB"
+        },
+        {
+            "id": "3089",
+            "cbnCode": "416",
+            "bankName": "Umuchinemere ProCredit MFB",
+            "bankCode": "UMU"
+        },
+        {
+            "id": "319",
+            "cbnCode": "095",
+            "bankName": "Unical MFB",
+            "bankCode": "UMFB"
+        },
+        {
+            "id": "2575",
+            "cbnCode": "316",
+            "bankName": "Unilorin MFB",
+            "bankCode": "UNIM"
+        },
+        {
+            "id": "11",
+            "cbnCode": "032",
+            "bankName": "Union Bank Nigeria Plc",
+            "bankCode": "UBN"
+        },
+        {
+            "id": "7",
+            "cbnCode": "033",
+            "bankName": "United Bank for Africa Plc",
+            "bankCode": "UBA"
+        },
+        {
+            "id": "129",
+            "cbnCode": "215",
+            "bankName": "Unity Bank Plc",
+            "bankCode": "UNITY"
+        },
+        {
+            "id": "3122",
+            "cbnCode": "418",
+            "bankName": "UNN MFB",
+            "bankCode": "UNA"
+        },
+        {
+            "id": "16",
+            "cbnCode": "035",
+            "bankName": "WEMA Bank Plc",
+            "bankCode": "WEMA"
+        },
+        {
+            "id": "1810",
+            "cbnCode": "309",
+            "bankName": "WetLand MFB",
+            "bankCode": "WTD"
+        },
+        {
+            "id": "1741",
+            "cbnCode": "G14",
+            "bankName": "Zenith Bank Gambia",
+            "bankCode": "ZIB Gambia"
+        },
+        {
+            "id": "117",
+            "cbnCode": "057",
+            "bankName": "Zenith Bank International",
+            "bankCode": "ZIB"
+        }
+    ]
 }
