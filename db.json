@@ -1,6 +1,8 @@
 {
     "banks": [
-        "codes": [
+        "statusCode": 200,
+        "lists": {
+            "codes": [
         {
             "id": "151",
             "cbnCode": "130",
@@ -20,6 +22,8 @@
             "bankCode": "ABO"
         }
         ]
+        }
+        
   ],
   "profile": {
     "name": "typicode"
