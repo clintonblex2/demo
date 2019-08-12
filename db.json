@@ -1,13 +1,23 @@
 {
     "banks": [
             {
-              "id": 1,
-              "title": "smart"
-            },
-            {
-              "id": 2,
-              "title": "cbn"
-            }
+            "id": "151",
+            "cbnCode": "130",
+            "bankName": "Abbey Mortgage Bank Plc.",
+            "bankCode": "ABS"
+        },
+        {
+            "id": "3192",
+            "cbnCode": "562",
+            "bankName": "ABSU MFB",
+            "bankCode": "ABSU"
+        },
+        {
+            "id": "2835",
+            "cbnCode": "059",
+            "bankName": "ABUCOOP MFB",
+            "bankCode": "ABO"
+        }
         
   ],
   "profile": {
