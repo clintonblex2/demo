@@ -1,23 +1,11 @@
 {
-    "statusCode": 200,
-    "banks": [
-        {
-            "id": "151",
-            "cbnCode": "130",
-            "bankName": "Abbey Mortgage Bank Plc.",
-            "bankCode": "ABS"
-        },
-        {
-            "id": "1738",
-            "cbnCode": "G07",
-            "bankName": "Access Bank Gambia",
-            "bankCode": "Access Gam"
-        },
-        {
-            "id": "3317",
-            "cbnCode": "432",
-            "bankName": "OGIYAN MFB",
-            "bankCode": "OGY"
-        }
-    ]
+    "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
