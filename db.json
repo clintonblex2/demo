@@ -1,6 +1,7 @@
 {
     "banks": [
-            {
+        "codes": [
+        {
             "id": "151",
             "cbnCode": "130",
             "bankName": "Abbey Mortgage Bank Plc.",
@@ -18,7 +19,7 @@
             "bankName": "ABUCOOP MFB",
             "bankCode": "ABO"
         }
-        
+        ]
   ],
   "profile": {
     "name": "typicode"
