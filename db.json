@@ -1,6 +1,5 @@
 {
-    "posts": [
-        "banks":[
+    "banks": [
             {
               "id": 1,
               "title": "smart"
@@ -9,7 +8,7 @@
               "id": 2,
               "title": "cbn"
             }
-        ]
+        
   ],
   "profile": {
     "name": "typicode"
